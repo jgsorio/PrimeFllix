@@ -1,0 +1,34 @@
+.container {
+    margin-top: 20px;
+}
+
+.loading {
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+.movie-list article{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.movie-list article strong {
+    margin: 10px 0;
+}
+
+.movie-list article a {
+    text-decoration: none;
+    background-color: #FF0000;
+    color: #FFF;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+}
